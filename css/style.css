@@ -173,11 +173,14 @@ footer {
 @media only screen and (max-width: 700px) {
   .left-section {
     width: 100%;
-    background-image: url(../img/background.jpg);
+    background:   linear-gradient( rgba(0,0,0,0.3)
+    ,rgba(0,0,0,0.3)
+        ),url(../img/background.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: #fff;
   }
 
   .right-section {
